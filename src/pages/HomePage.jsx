@@ -12,6 +12,10 @@ function HomePage() {
           src={heroImage}
           alt="Campervan parked in scenic nature - TravelTrucks"
           className={styles.heroImage}
+          fetchPriority="high"
+          decoding="async"
+          width="1600"
+          height="1067"
         />
         <div className={styles.heroOverlay} />
         <div className={styles.heroContent}>

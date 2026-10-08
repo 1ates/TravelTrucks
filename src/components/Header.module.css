@@ -1,0 +1,55 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--color-inputs);
+  border-bottom: 1px solid var(--color-badges);
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--spacing-3xl) var(--container-padding);
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 16px;
+  width: 136px;
+  display: flex;
+  align-items: center;
+  justify-self: start;
+}
+
+.nav {
+  display: flex;
+  gap: var(--spacing-4xl);
+  align-items: center;
+  justify-self: center;
+}
+
+.spacer {
+  justify-self: end;
+}
+
+.navLink {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-body);
+  color: var(--color-main);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.navLink:hover {
+  color: var(--color-primary);
+}
+
+.navLink.active {
+  color: var(--color-primary);
+}

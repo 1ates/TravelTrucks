@@ -141,3 +141,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# AI generated files
+CLAUDE.md
+agent-transcripts
+.cmem-projects
+cmem_work_root
+copilot-instructions.md
+/docs

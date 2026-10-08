@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star {
+  font-size: 16px;
+  color: var(--color-gray-light);
+  transition: color var(--transition-fast);
+}
+
+.star.filled {
+  color: var(--color-rating);
+}
+
+.value {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  color: var(--color-main);
+}

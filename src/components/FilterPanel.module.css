@@ -1,0 +1,56 @@
+.panel {
+  background-color: var(--color-inputs);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-3xl);
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6xl);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-5xl);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3xl);
+}
+
+.sectionTitle {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-body);
+  color: var(--color-main);
+  margin: 0;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.filterLabel {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  color: var(--color-gray);
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}

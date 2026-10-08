@@ -1,0 +1,148 @@
+.card {
+  background-color: var(--color-inputs);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3xl);
+}
+
+.content {
+  display: flex;
+  gap: var(--spacing-3xl);
+}
+
+.thumbnail {
+  flex-shrink: 0;
+  width: 219px;
+  height: 240px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background-color: var(--color-badges);
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3xl);
+  flex: 1;
+  max-width: 524px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+}
+
+.priceAndFavorite {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.favoriteButton {
+  background: none;
+  border: none;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+  overflow: visible;
+}
+
+.favoriteButton svg {
+  overflow: visible;
+  display: block;
+}
+
+.favoriteButton:hover {
+  transform: scale(1.1);
+}
+
+.favoriteButton.active svg path {
+  fill: var(--color-error);
+  stroke: var(--color-error);
+}
+
+.title {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-semibold);
+  line-height: 32px;
+  color: var(--color-main);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-semibold);
+  line-height: 32px;
+  color: var(--color-main);
+  white-space: nowrap;
+}
+
+.details {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+
+.reviews {
+  display: flex;
+  gap: var(--spacing-xs);
+  align-items: center;
+}
+
+.reviewText {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  color: var(--color-main);
+}
+
+.location {
+  display: flex;
+  gap: var(--spacing-xs);
+  align-items: center;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  color: var(--color-main);
+}
+
+.location svg {
+  flex-shrink: 0;
+}
+
+.description {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badges {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}

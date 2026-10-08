@@ -143,7 +143,8 @@
 
 /* Gallery */
 .gallery {
-  width: 638px;
+  width: 100%;
+  max-width: 638px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -151,8 +152,8 @@
 }
 
 .mainImage {
-  width: 638px;
-  height: 505px;
+  width: 100%;
+  max-width: 638px;
   border-radius: 16.611px;
   overflow: hidden;
 }
@@ -386,7 +387,8 @@
 
 /* Booking Form */
 .bookingForm {
-  width: 641px;
+  width: 100%;
+  max-width: 641px;
   flex-shrink: 0;
   border: 1px solid var(--color-gray-light);
   border-radius: var(--radius-md);
@@ -394,6 +396,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-3xl);
+  box-sizing: border-box;
 }
 
 .formHeader {

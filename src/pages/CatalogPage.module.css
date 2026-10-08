@@ -53,6 +53,23 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    gap: var(--spacing-4xl);
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .emptyIllustration {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
+
 .sidebar {
   flex-shrink: 0;
 }

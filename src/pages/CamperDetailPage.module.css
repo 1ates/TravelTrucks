@@ -103,6 +103,44 @@
   gap: var(--spacing-3xl);
 }
 
+@media (max-width: 1024px) {
+  .topSection {
+    flex-direction: column;
+  }
+
+  .gallery {
+    width: 100%;
+  }
+
+  .mainImage {
+    width: 100%;
+    height: 360px;
+  }
+
+  .reviewsContainer {
+    flex-direction: column;
+  }
+
+  .bookingForm {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .mainImage {
+    height: 260px;
+  }
+
+  .thumbnails {
+    gap: var(--spacing-sm);
+  }
+
+  .thumbnail {
+    width: 80px;
+    height: 80px;
+  }
+}
+
 /* Gallery */
 .gallery {
   width: 638px;
